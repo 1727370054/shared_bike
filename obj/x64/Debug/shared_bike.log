@@ -1,0 +1,93 @@
+﻿  正在验证源
+  正在将源远程复制到“139.199.191.194”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  bike.pb.cpp
+  business_process.cpp
+D:\Linux Code\shared_bike\mysql_tables.h(25,51): warning : backslash and newline separated by space
+D:\Linux Code\shared_bike\mysql_tables.h(25,51): warning :    25 |     money  int(11)   NOT NULL default 0           \
+D:\Linux Code\shared_bike\mysql_tables.h(25,51): warning :       |
+D:\Linux Code\shared_bike\events_def.h(135,39): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Linux Code\shared_bike\events_def.h(135,39): warning :   135 |  const i32& get_code() { msg_.code(); }
+D:\Linux Code\shared_bike\events_def.h(135,39): warning :       |                                       ^
+D:\Linux Code\shared_bike\events_def.h(136,48): warning : returning reference to temporary [-Wreturn-local-addr]
+D:\Linux Code\shared_bike\events_def.h(136,48): warning :   136 |  const i32& get_balance() { return msg_.balance(); }
+D:\Linux Code\shared_bike\events_def.h(136,48): warning :       |                                    ~~~~~~~~~~~~^~
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning : conversion from ‘my_ulonglong’ {aka ‘long long unsigned int’} to ‘i32’ {aka ‘int’} may change value [-Wconversion]
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning :    47 |   return mysql_res_->row_count;
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning :       |          ~~~~~~~~~~~~^~~~~~~~~
+  dispatch_msg_service.cpp
+D:\Linux Code\shared_bike\events_def.h(135,39): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Linux Code\shared_bike\events_def.h(135,39): warning :   135 |  const i32& get_code() { msg_.code(); }
+D:\Linux Code\shared_bike\events_def.h(135,39): warning :       |                                       ^
+D:\Linux Code\shared_bike\events_def.h(136,48): warning : returning reference to temporary [-Wreturn-local-addr]
+D:\Linux Code\shared_bike\events_def.h(136,48): warning :   136 |  const i32& get_balance() { return msg_.balance(); }
+D:\Linux Code\shared_bike\events_def.h(136,48): warning :       |                                    ~~~~~~~~~~~~^~
+D:\Linux Code\shared_bike\dispatch_msg_service.cpp(84,25): warning : conversion from ‘int_t’ {aka ‘long int’} to ‘i32’ {aka ‘int’} may change value [-Wconversion]
+D:\Linux Code\shared_bike\dispatch_msg_service.cpp(84,25): warning :    84 |  return thread_task_post(tp_, task);
+D:\Linux Code\shared_bike\dispatch_msg_service.cpp(84,25): warning :       |         ~~~~~~~~~~~~~~~~^~~~~~~~~~~
+D:\Linux Code\shared_bike\dispatch_msg_service.cpp(175,31): warning : conversion from ‘u32’ {aka ‘unsigned int’} to ‘u16’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\Linux Code\shared_bike\dispatch_msg_service.cpp(175,31): warning :   175 |  *(u16*)(cs->write_buf + 4) = eid;
+D:\Linux Code\shared_bike\dispatch_msg_service.cpp(175,31): warning :       |                               ^~~
+  ievent.cpp
+  events_def.cpp
+D:\Linux Code\shared_bike\events_def.h(135,39): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Linux Code\shared_bike\events_def.h(135,39): warning :   135 |  const i32& get_code() { msg_.code(); }
+D:\Linux Code\shared_bike\events_def.h(135,39): warning :       |                                       ^
+D:\Linux Code\shared_bike\events_def.h(136,48): warning : returning reference to temporary [-Wreturn-local-addr]
+D:\Linux Code\shared_bike\events_def.h(136,48): warning :   136 |  const i32& get_balance() { return msg_.balance(); }
+D:\Linux Code\shared_bike\events_def.h(136,48): warning :       |                                    ~~~~~~~~~~~~^~
+  event_type.cpp
+  ini_config.cpp
+  logger.cpp
+  main.cpp
+D:\Linux Code\shared_bike\events_def.h(135,39): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Linux Code\shared_bike\events_def.h(135,39): warning :   135 |  const i32& get_code() { msg_.code(); }
+D:\Linux Code\shared_bike\events_def.h(135,39): warning :       |                                       ^
+D:\Linux Code\shared_bike\events_def.h(136,48): warning : returning reference to temporary [-Wreturn-local-addr]
+D:\Linux Code\shared_bike\events_def.h(136,48): warning :   136 |  const i32& get_balance() { return msg_.balance(); }
+D:\Linux Code\shared_bike\events_def.h(136,48): warning :       |                                    ~~~~~~~~~~~~^~
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning : conversion from ‘my_ulonglong’ {aka ‘long long unsigned int’} to ‘i32’ {aka ‘int’} may change value [-Wconversion]
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning :    47 |   return mysql_res_->row_count;
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning :       |          ~~~~~~~~~~~~^~~~~~~~~
+  mysql_connection.cpp
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning : conversion from ‘my_ulonglong’ {aka ‘long long unsigned int’} to ‘i32’ {aka ‘int’} may change value [-Wconversion]
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning :    47 |   return mysql_res_->row_count;
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning :       |          ~~~~~~~~~~~~^~~~~~~~~
+D:\Linux Code\shared_bike\mysql_connection.cpp(84,36): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+D:\Linux Code\shared_bike\mysql_connection.cpp(84,36): warning :    84 |     return mysql_real_escape_string(mysql_, pDest, pSrc, nSrcLen);
+D:\Linux Code\shared_bike\mysql_connection.cpp(84,36): warning :       |            ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  network_interface.cpp
+D:\Linux Code\shared_bike\network_interface.cpp(231,22): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘u32’ {aka ‘unsigned int’} may change value [-Wconversion]
+D:\Linux Code\shared_bike\network_interface.cpp(231,22): warning :   231 |  cs->read_header_len += len;
+D:\Linux Code\shared_bike\network_interface.cpp(231,22): warning :       |  ~~~~~~~~~~~~~~~~~~~~^~~~~~
+D:\Linux Code\shared_bike\network_interface.cpp(270,19): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘u32’ {aka ‘unsigned int’} may change value [-Wconversion]
+D:\Linux Code\shared_bike\network_interface.cpp(270,19): warning :   270 |  cs->read_msg_len += len;
+D:\Linux Code\shared_bike\network_interface.cpp(270,19): warning :       |  ~~~~~~~~~~~~~~~~~^~~~~~
+  thread_cond.cpp
+  thread_mutex.cpp
+  thread_pool.cpp
+  user_event_handler.cpp
+D:\Linux Code\shared_bike\events_def.h(135,39): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Linux Code\shared_bike\events_def.h(135,39): warning :   135 |  const i32& get_code() { msg_.code(); }
+D:\Linux Code\shared_bike\events_def.h(135,39): warning :       |                                       ^
+D:\Linux Code\shared_bike\events_def.h(136,48): warning : returning reference to temporary [-Wreturn-local-addr]
+D:\Linux Code\shared_bike\events_def.h(136,48): warning :   136 |  const i32& get_balance() { return msg_.balance(); }
+D:\Linux Code\shared_bike\events_def.h(136,48): warning :       |                                    ~~~~~~~~~~~~^~
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning : conversion from ‘my_ulonglong’ {aka ‘long long unsigned int’} to ‘i32’ {aka ‘int’} may change value [-Wconversion]
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning :    47 |   return mysql_res_->row_count;
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning :       |          ~~~~~~~~~~~~^~~~~~~~~
+D:\Linux Code\shared_bike\user_event_handler.cpp(132,67): warning : conversion from ‘int’ to ‘int16_t’ {aka ‘short int’} may change value [-Wconversion]
+D:\Linux Code\shared_bike\user_event_handler.cpp(132,67): warning :   132 |  if (!mysqlconn->Init(mysqlConfig_->szHost.c_str(), mysqlConfig_->nPort, mysqlConfig_->szUser.c_str(),
+D:\Linux Code\shared_bike\user_event_handler.cpp(132,67): warning :       |                                                     ~~~~~~~~~~~~~~^~~~~
+D:\Linux Code\shared_bike\user_event_handler.cpp(171,67): warning : conversion from ‘int’ to ‘int16_t’ {aka ‘short int’} may change value [-Wconversion]
+D:\Linux Code\shared_bike\user_event_handler.cpp(171,67): warning :   171 |  if (!mysqlconn->Init(mysqlConfig_->szHost.c_str(), mysqlConfig_->nPort, mysqlConfig_->szUser.c_str(),
+D:\Linux Code\shared_bike\user_event_handler.cpp(171,67): warning :       |                                                     ~~~~~~~~~~~~~~^~~~~
+  user_service.cpp
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning : conversion from ‘my_ulonglong’ {aka ‘long long unsigned int’} to ‘i32’ {aka ‘int’} may change value [-Wconversion]
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning :    47 |   return mysql_res_->row_count;
+D:\Linux Code\shared_bike\mysql_connection.h(47,22): warning :       |          ~~~~~~~~~~~~^~~~~~~~~
+  正在链接对象
+  shared_bike.vcxproj -> D:\Linux Code\shared_bike\bin\x64\Debug\shared_bike.out
